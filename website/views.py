@@ -19,8 +19,7 @@ def home(request):
             return render(request, 'home.html', {'lang_list': lang_list, 'code': code, 'lang': lang})
         else:
             # OpenAI Key
-            openai.api_key = "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"
-            #openai.api_key = "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"
+            openai.api_key = USE ONPENAI GENERATED KEY
             # OpenAi stance
             openai.Model.list()
             try:
